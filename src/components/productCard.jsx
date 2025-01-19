@@ -1,5 +1,6 @@
-export default function ProductCard(){
+export default function ProductCard(props){
 
+    console.log(props)
     return (
         <div>
             <h1>Product one</h1>
