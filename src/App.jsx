@@ -9,9 +9,9 @@ function App() {
   return (
     <>
 
-    <ProductCard name="Laptop" price="$99.99"></ProductCard>
+    <ProductCard name="Laptop" src="https://t3.ftcdn.net/jpg/02/43/12/34/360_F_243123463_zTooub557xEWABDLk0jJklDyLSGl2jrr.jpg" price="$99.99"></ProductCard>
     <ProductCard name="Tphone" price="$120.22"></ProductCard>
-    <ProductCard></ProductCard>
+    
 
       
     </>

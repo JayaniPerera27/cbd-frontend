@@ -1,10 +1,12 @@
+/* eslint-disable react/prop-types */
 export default function ProductCard(props){
 
-    console.log(props)
+    //console.log(props)
     return (
         <div>
-            <h1>Product one</h1>
-            <h2>Price: $100</h2>
+            <img src={props.src}  />
+            <h1>{props.name}</h1>
+            <h2>Price: {props.price}</h2>
             <button>Add to card </button>
         </div>
     )
