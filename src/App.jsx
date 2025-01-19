@@ -1,5 +1,6 @@
 import './App.css'
 import ProductCard from './components/productCard'
+import UserData from './components/userData'
 
 function App() {
  
@@ -10,6 +11,7 @@ function App() {
     <ProductCard></ProductCard>
     <ProductCard></ProductCard>
     <ProductCard></ProductCard>
+    <UserData></UserData>
       
     </>
   )
