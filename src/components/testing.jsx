@@ -10,10 +10,15 @@ export default function Testing (){
         console.log("incrementing")
         setCount(count+1)
     }
+
+    function decrement (){
+        console.log("decrementing")
+        setCount(count-1)
+    }
    
     return(
         <div className="background">
-            <button>-</button>
+            <button onClick={decrement}>-</button>
 
             <span>{count}</span>
 
