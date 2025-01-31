@@ -5,7 +5,7 @@ import './App.css'
 //import Testing from './components/testing'
 import LoginPage from './pages/loginPage.jsx'
 import HomePage from './pages/homePage.jsx'
-import SignupPage from './pages/signInPage.jsx'
+import SignupPage from './pages/signUpPage.jsx'
 
 
 
