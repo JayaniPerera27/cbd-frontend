@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom";
+import { Link, Route, Routes } from "react-router-dom";
 import { BsGraphUp } from "react-icons/bs";
 import { FaBoxOpen, FaClipboardList, FaUsers } from "react-icons/fa"; // Added suitable icons
 
@@ -26,8 +26,16 @@ export default function AdminHomePage() {
       </div>
 
       {/* Main Content */}
-      <div className="w-[80%] h-screen bg-gray-100 flex items-center justify-center">
-        <h1 className="text-3xl font-bold text-gray-700">Welcome to the Admin Dashboard</h1>
+      <div className="w-[80%] h-screen bg-gray-100 flex ">
+       <Routes path="/*">
+       <Route path ="/dashboard" element={<h1>Dashboard</h1>}/>
+       <Route path="/products" element={<h1>Products</h1>} />
+        <Route path="/orders" element={<h1>Orders</h1>} />
+        <Route path="/customers" element={<h1>Customers</h1>} />
+        <Route path="/*" element={<h1>404 error Page Not Found</h1>}/>
+
+       
+       </Routes>
       </div>
     </div>
   );
