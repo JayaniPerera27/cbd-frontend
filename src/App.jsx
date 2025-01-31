@@ -6,6 +6,7 @@ import './App.css'
 import LoginPage from './pages/loginPage.jsx'
 import HomePage from './pages/homePage.jsx'
 import SignupPage from './pages/signUpPage.jsx'
+import AdminHomePage from './pages/adminHomePage.jsx'
 
 
 
@@ -20,6 +21,9 @@ function App() {
     <Route path="/" element={<HomePage/>}/>
     <Route path ="/login" element={<LoginPage/>}/>
     <Route path = "/singup" element ={<SignupPage/>}/>
+    <Route path = "/admin" elemet = {<AdminHomePage/>}/>
+
+    <Route path ="/*" element={<HomePage/>}/>
     
     </Routes>
     </BrowserRouter>
